@@ -1,0 +1,24 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+.sign-in .title {
+  margin: 10px;
+}
+.sign-in .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .sign-in .buttons {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sign-in {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=sign-in.styles.css.map */
